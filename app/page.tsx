@@ -62,12 +62,11 @@ export default function Home() {
             <p>Rating</p>
           </div>
         </div>
-
-        <img
-          ref={imageRef}
-          src="https://pngimg.com/uploads/car/small/car_PNG1667.png"
-          className="absolute bottom-10 w-[300px] md:w-[500px]"
-        />
+<img
+  ref={imageRef}
+  src="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+  className="absolute bottom-10 w-[300px] md:w-[500px] rounded-xl"
+/>
       </section>
 
       <div className="h-[100vh]"></div>
